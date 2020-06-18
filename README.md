@@ -13,7 +13,7 @@ In order to run this app, the following dependencies must have been already inst
 2. Flask
 
 ## B. Project URL on Heroku 
-The project is deployed on heroku: https://git.heroku.com/trees4life.git
+The project is deployed on heroku:  [https://trees4life.herokuapp.com/trees](https://trees4life.herokuapp.com/trees)
 
 
 ## C. Steps to Run the App: 
@@ -314,7 +314,18 @@ The API will return these type of errors:
 ## Testing
 ```sh
 To run the tests, run :
-	python test_app.py
+	heroku run python test_app.py
 
 ```
+##Tokens to use for Authentication (time-sensitive)
+
+Assistant JWT:
+'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6ImdLa2t2ajJJb1h5dUJsWUFvSUQ2XyJ9.eyJpc3MiOiJodHRwczovL29naWxtb3JlLmF1dGgwLmNvbS8iLCJzdWIiOiJhdXRoMHw1ZWJhM2Y3YjRmNjllMTIyNTZmYzFhZDgiLCJhdWQiOiJUcmVlczRMaWZlIiwiaWF0IjoxNTkyNTEyMTc4LCJleHAiOjE1OTI1OTg1NzgsImF6cCI6InpYejhOTWZLR3ZRaHRXeW1CWDExdG1xTVZvc2pPWDFYIiwic2NvcGUiOiIiLCJwZXJtaXNzaW9ucyI6WyJnZXQ6b3duZXJzIiwiZ2V0OnRyZWVzIl19.pvPND-pD9y1TSBbpgskN7MjMOHpLyQ6J4-7T1kOvXF8svTB16fakS2tuxu0eXRQTEHMkejVIc2KUlfT_9Bfs1BHAD-zhS5UNLpwwxGAnlocsUCjcBjKx3_dCcD1R618sub--IwTObdDobScJFikEkIWPgabQULh1fdkfi73cIenllH4MFtjQ9YoT2F4RHIctGTHPat9sTIULNcg2mH5aLR55etiukZx10Hu142iPKdQtXbQrId0qiaSBSpkJCKbzdHMY3vV1OeDHuGQp_pqv2rRfOG6KpOjSgFlGQtfPhOpWFjtIU95intTklIUR_ymfFmvjCG1wCHvSvUcUpIFMyA'
+        
+
+Admin JWT:
+'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6ImdLa2t2ajJJb1h5dUJsWUFvSUQ2XyJ9.eyJpc3MiOiJodHRwczovL29naWxtb3JlLmF1dGgwLmNvbS8iLCJzdWIiOiJhdXRoMHw1ZWFmN2IxOTFjYzFhYzBjMTQ4MWQ0ZTYiLCJhdWQiOiJUcmVlczRMaWZlIiwiaWF0IjoxNTkyNTExODkzLCJleHAiOjE1OTI1OTgyOTMsImF6cCI6InpYejhOTWZLR3ZRaHRXeW1CWDExdG1xTVZvc2pPWDFYIiwic2NvcGUiOiIiLCJwZXJtaXNzaW9ucyI6WyJkZWxldGU6dHJlZSIsImdldDpvd25lcnMiLCJnZXQ6dHJlZXMiLCJwYXRjaDp0cmVlIiwicG9zdDp0cmVlcyJdfQ.i_07jVMnRmizpgTobsQ3HbGiORhxzPVLDww70auA8gHTxxE0oLgeuP_QQ9MGuRK49lkskUTS2q14J9SPuqMQONUdyu_cdr6WpdGbvoN1-vWBi4bzfA8Bic_DfOssxxJnbG4X4irn7CkEV6Rw5vQoFOm-L4bp8ClufFAG3gzdvnRa7vCEecgt-9BdZf-CQPt7EVI7WMApi-sc8z-PUvJDmZC3yxkyNcBitCO9cUXdDklmM9Dq5dJx8icQ-fYtHZuMPX0xJqiJrQM871n8K2wGa6PQZNB0hWQ_oV0vcZQPq6q6_adJJ7ANGYbM4tvGnr65qgRDGK71WQWpaJfXhYk1pg'
+        
+
+
 
