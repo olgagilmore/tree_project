@@ -12,17 +12,8 @@ In order to run this app, the following dependencies must have been already inst
  
 2. Flask
 
-## B. Database 
-The database relations `todos(id, description, complete, list_id)` and `todolists(id, name)` must have been already created in Postgres. We have assumed that the Postgres is running on default port 5432.
-
-* `dropdb todoapp -p 5432 && createdb todoapp -p 5432` 
-* Open the database prompt - `psql -p 5432`
-* Connect to the database - `\c todoapp` 
-* Displays the tables in the database `\dt` 
-* Displays the schema of the 'todos' table `\d todos` 
-* Displays the schema of the 'todolists' table `\d todolists` 
-
-You can insert a few rows in both the tables. Insert first in the `todolists` relation. 
+## B. Project URL on Heroku 
+The project is deployed on heroku: https://git.heroku.com/trees4life.git
 
 
 ## C. Steps to Run the App: 
