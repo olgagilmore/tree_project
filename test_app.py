@@ -102,7 +102,7 @@ class TreeAppTestCase(unittest.TestCase):
         self.assertEqual(response.status_code, 200)
         self.assertEqual(data['success'], True)
         self.assertTrue(data['total_trees'])
-        self.assertEqual(data['total_trees'], 1)        
+        self.assertEqual(data['total_trees'], 2)        
         self.assertTrue(len(data['trees']))
         
     def test_add_tree_delete_tree(self):
