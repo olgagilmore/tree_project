@@ -160,7 +160,7 @@ def create_app(test_config=None):
                             "trees": trees
                             }), 200
         except:
-            (traceback.format_exc()) 
+            (traceback.format_exc())
             abort(422)
 
 #    @app.route('/')
@@ -218,6 +218,7 @@ def create_app(test_config=None):
     return app
 
 APP = create_app()
+
 
 if __name__ == '__main__':
     APP.run(host='0.0.0.0', port=8080, debug=True)
