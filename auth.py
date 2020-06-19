@@ -5,9 +5,9 @@ from jose import jwt
 from urllib.request import urlopen
 
 
-AUTH0_DOMAIN = 'ogilmore.auth0.com'
-ALGORITHMS = ['RS256']
-API_AUDIENCE = 'Trees4Life'
+# AUTH0_DOMAIN = 'ogilmore.auth0.com'
+# ALGORITHMS = ['RS256']
+# API_AUDIENCE = 'Trees4Life'
 
 ## AuthError Exception
 '''
